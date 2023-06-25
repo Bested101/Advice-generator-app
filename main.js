@@ -1,10 +1,12 @@
+getData()
+
 let renew = document.querySelector("main > button");
 let idSpan = document.querySelector(".title span");
 let advicePar = document.querySelector(".advice");
 let lineHeight = "144px";
 
 
-renew.addEventListener("click", anima); // anime = getData
+renew.addEventListener("click", anima); // anima = getData
 
 async function getData() {
   let fetsh = await fetch(
